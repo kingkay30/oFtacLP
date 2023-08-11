@@ -41,7 +41,8 @@ export default function CTA() {
   const [showCommentField, setShowCommentField] = useState(true);
 
   const userRequest = axios.create({
-    baseURL: "http://192.168.0.151:5000/api/v1/oftacComments",
+    baseURL:
+      "https://oftacserver-6ffe2d638842.herokuapp.com/api/v1/oftacComments",
   });
 
   const sendComment = () => {
