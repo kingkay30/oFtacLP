@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { images } from "../assets";
 
 export default function ImageSlider({ index, parentWidth }) {
