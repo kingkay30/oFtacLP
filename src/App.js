@@ -41,7 +41,6 @@ function App() {
           <About />
           <Goals />
           <CTA />
-          <Feedback />
           <Foot />
         </div>
       </div>
