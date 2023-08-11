@@ -1,5 +1,5 @@
 import styles from "../style";
-import { School } from "@material-ui/icons";
+import SchoolIcon from "@mui/icons-material/School";
 import { img1, img2 } from "../assets";
 
 export default function Hero() {
@@ -12,7 +12,7 @@ export default function Hero() {
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-5">
-          <School color="error" fontSize="large" />
+          <SchoolIcon color="error" fontSize="large" />
           <p
             className={`${styles.paragraph} ml-2  sm:text-[39px] sm:leading-[45px] xs:text-[28px] lg:text[50px]  lg:leading-[35px]`}
           >

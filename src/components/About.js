@@ -1,5 +1,5 @@
 import { features } from "../constants";
-import { Add } from "@material-ui/icons";
+import AddIcon from "@mui/icons-material/Add";
 import styles, { layout } from "../style";
 
 const FeatureCard = ({ icon, title, content, index }) => (
@@ -12,7 +12,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
       <div
         className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue sm:ml-[-19px] sm:mr-[19px]`}
       >
-        <Add
+        <AddIcon
           src={icon}
           alt="star"
           className="w-[50%] h-[50%] object-contain sm:ml-5 xs:ml-5 "

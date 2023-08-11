@@ -1,40 +1,40 @@
 import styles from "../style";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
-import { makeStyles } from "@material-ui/core/styles";
+// import { styled } from "@mui/material/styles";
 import { useRef, useState } from "react";
 import axios from "axios";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    "& .css-1x51dt5-MuiInputBase-input-MuiInput-input": {
-      color: "white",
-      fontSize: 35,
-    },
-    "& .css-66dh3a-MuiInputBase-input-MuiInput-input": {
-      color: "white",
-      fontSize: 35,
-    },
-    "& .css-1d1r5q-MuiFormHelperText-root  ": {
-      fontSize: 35,
-      marginBottom: 10,
-      color: "red",
-    },
+// const useStyles = styled((theme) => ({
+//   root: {
+//     "& .css-1x51dt5-MuiInputBase-input-MuiInput-input": {
+//       color: "white",
+//       fontSize: 35,
+//     },
+//     "& .css-66dh3a-MuiInputBase-input-MuiInput-input": {
+//       color: "white",
+//       fontSize: 35,
+//     },
+//     "& .css-1d1r5q-MuiFormHelperText-root  ": {
+//       fontSize: 35,
+//       marginBottom: 10,
+//       color: "red",
+//     },
 
-    " & .css-1d1r5q-MuiFormHelperText-root.Mui-error": {
-      color: "red",
-    },
-    "& .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root.Mui-error ": {
-      fontSize: 35,
-      marginTop: -20,
-      color: "red",
-    },
-  },
-}));
+//     " & .css-1d1r5q-MuiFormHelperText-root.Mui-error": {
+//       color: "red",
+//     },
+//     "& .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root.Mui-error ": {
+//       fontSize: 35,
+//       marginTop: -20,
+//       color: "red",
+//     },
+//   },
+// }));
 
 export default function CTA() {
   const textInputRef = useRef();
-  const classes = useStyles();
+  // const classes = useStyles();
   const [name, setName] = useState();
   const [comment, setComment] = useState();
   const [showComment, setShowComment] = useState(false);
@@ -112,7 +112,7 @@ export default function CTA() {
           <>
             <div>
               <TextField
-                className={classes.root}
+                // className={classes.root}
                 ref={textInputRef}
                 required
                 label="Name"
@@ -128,7 +128,7 @@ export default function CTA() {
             </div>
             <div style={{ marginTop: 25 }}>
               <TextField
-                className={classes.root}
+                // className={classes.root}
                 ref={textInputRef}
                 required
                 fullWidth
@@ -146,7 +146,7 @@ export default function CTA() {
             </div>
             <div style={{ marginTop: 15 }}>
               <Button
-                className={classes.root}
+                // className={classes.root}
                 variant="contained"
                 disabled={!name || !comment}
                 onClick={sendComment}

@@ -1,13 +1,5 @@
 import { useEffect } from "react";
-import {
-  Navbar,
-  Hero,
-  Features,
-  About,
-  CTA,
-  Foot,
-  Feedback,
-} from "./components";
+import { Navbar, Hero, Features, About, CTA, Foot } from "./components";
 import Goals from "./components/Goals";
 import styles from "./style";
 import axios from "axios";
