@@ -1,0 +1,19 @@
+.images-container {
+    display: flex;  
+    height: 66vh;
+    width: 85.95vw; 
+}
+
+.images-section {  
+    display: flex;
+    height: 100%;
+    width: 100%;  
+}
+
+.images-left { 
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
