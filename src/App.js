@@ -1,8 +1,8 @@
-// import { useEffect } from "react";
+import { useEffect } from "react";
 import { Navbar, Hero, Features, About, CTA, Foot } from "./components";
 import Goals from "./components/Goals";
 import styles from "./style";
-// import axios from "axios";
+import axios from "axios";
 
 // const userRequest = axios.create({
 //   baseURL: "http://192.168.0.151:5000/api/v1/oftacComments",
@@ -14,7 +14,7 @@ function App() {
   // }, []);
 
   return (
-    <div className="bg-primary w-full ">
+    <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
