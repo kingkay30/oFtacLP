@@ -36,7 +36,7 @@ export default function Hero() {
           className={`${styles.paragraph} max-w-[510px] mt-5 sm:text-[35px] xs:text-[28px] sm:max-w-[610px] `}
         >
           <span
-            className="lg:text-[25px] sm:text-[30px] xs:text-[25px]"
+            className="lg:text-[25px] sm:text-[30px] xs:text-[25px] "
             style={{
               fontFamily: "Mochiy Pop One",
               color: "tomato",
