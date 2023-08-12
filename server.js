@@ -8,11 +8,11 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 
 // Your static pre-build assets folder
-app.use(express.static(path.join(__dirname, "..", "build/static")));
+app.use(express.static(path.join(__dirname, "..", "build")));
 
 // Root Redirects to the pre-build assets
 app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "..", "build/static"));
+  res.sendFile(path.join(__dirname, "..", "build"));
 });
 
 // Any Page Redirects to the pre-build assets folder index.html that // will load the react app
