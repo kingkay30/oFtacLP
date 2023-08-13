@@ -192,8 +192,8 @@ export default function CTA() {
             is still in production, angel investors and team members are needed.
             If you will like to a part of the founding team, or you will like to
             know more about us , please do reach out to us via email
-            <span style={{ color: "red" }}> clintonararomi@yahoo.com </span>or
-            send a messages on WhatsApp{" "}
+            <span style={{ color: "red" }}> oftacng@gmail.com </span>or send a
+            messages on WhatsApp{" "}
             <span style={{ color: "red" }}> +2349074492272</span> and tell us
             what you will like to be part of.
           </p>
