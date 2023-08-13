@@ -13,6 +13,7 @@ const CssTextField = styled(TextField)({
   "& .css-66dh3a-MuiInputBase-input-MuiInput-input": {
     color: "white",
     fontSize: 35,
+    padding: 10,
   },
   "& .css-1d1r5q-MuiFormHelperText-root  ": {
     fontSize: 35,
