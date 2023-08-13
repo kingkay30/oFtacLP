@@ -108,7 +108,7 @@ export default function CTA() {
       <div className="sm:mt-[80px] xs:mt-[80px]">
         {showCommentField && (
           <>
-            <div>
+            {/* <div>
               <CssTextField
                 sx={{ fontSize: 35, color: "white" }}
                 ref={textInputRef}
@@ -140,6 +140,37 @@ export default function CTA() {
                   setComment(event.target.value);
                 }}
               />
+            </div> */}
+            <div style={{ flex: 1 }}>
+              <form onSubmit={sendComment}>
+                <div>
+                  <label>
+                    Name
+                    <input
+                      type="text"
+                      name="name"
+                      value={name}
+                      onChange={(event) => {
+                        setName(event.target.value);
+                      }}
+                    />
+                  </label>
+                </div>
+
+                <div>
+                  <label>
+                    Comment
+                    <textarea
+                      type="text"
+                      name="comment"
+                      value={comment}
+                      onChange={(event) => {
+                        setComment(event.target.value);
+                      }}
+                    />
+                  </label>
+                </div>
+              </form>
             </div>
             <div style={{ marginTop: 15 }}>
               <Button

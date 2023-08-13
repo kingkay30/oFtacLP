@@ -132,3 +132,57 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 } */
+
+form {
+  flex-direction: row;
+}
+
+label {
+  color:white;
+  font-size: 30px;
+
+}
+input {
+  border-radius: 10px;
+  background-color: #11101d;
+  width:100%;
+  outline: unset;
+  border: none;
+    padding: 10px;
+}
+textarea {
+  border-radius: 10px;
+  background-color: #11101d;
+  width: 100%;
+  outline: unset;
+  padding: 10px;
+}
+
+/* @media screen and (min-width: 980px) {
+  label {
+    
+  }
+  input {
+    width: 90%;
+    margin-bottom: 20px;
+    margin: 10px;
+  }
+  form {
+flex-direction: column;
+align-items: center;
+width: 60%;
+  }
+     textarea {
+       width: 100%;
+        margin-bottom: 20px;
+        margin: 10px;
+  
+     }
+  } */
+
+   
+ 
+  
+
+
+
