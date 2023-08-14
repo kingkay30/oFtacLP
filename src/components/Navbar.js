@@ -7,7 +7,18 @@ function Navbar() {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav
+      className="w-full flex py-6 justify-between items-center navbar bg-black-gradient-2"
+      style={{
+        position: "fixed",
+        top: 0,
+        right: 0,
+        zIndex: 999,
+        backgroundColor: "blue",
+        flex: 1,
+        padding: 10,
+      }}
+    >
       <h2
         className="lg:text-[40px] sm:text-[45px] xs:text-[30px]"
         style={{ fontFamily: "Mochiy Pop One", color: "tomato" }}

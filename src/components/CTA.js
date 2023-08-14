@@ -3,8 +3,6 @@ import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import { styled } from "@mui/material/styles";
 import { useRef, useState } from "react";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 
 const CssTextField = styled(TextField)({
@@ -40,11 +38,6 @@ export default function CTA() {
   const [showComment, setShowComment] = useState(false);
   const [showCommentField, setShowCommentField] = useState(true);
 
-  const toastSuccess = () =>
-    toast.success("Your comment has been sent. Thank You.", {
-      position: toast.POSITION.TOP_RIGHT,
-    });
-
   const userRequest = axios.create({
     baseURL:
       "https://oftacserver-6ffe2d638842.herokuapp.com/api/v1/oftacComments",
@@ -60,10 +53,8 @@ export default function CTA() {
 
     setName("");
     setComment("");
-    // setShowCommentField(false);
-    // setShowComment(true);
-
-    toastSuccess();
+    setShowCommentField(false);
+    setShowComment(true);
   };
 
   setTimeout(() => {
@@ -248,18 +239,6 @@ export default function CTA() {
           </p>
         </div>
       </div>
-
-      <ToastContainer
-        position="top-right"
-        autoClose={5000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-      />
     </section>
   );
 }
