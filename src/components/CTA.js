@@ -144,9 +144,10 @@ export default function CTA() {
             <div style={{ flex: 1 }}>
               <form onSubmit={sendComment}>
                 <div>
-                  <label>
+                  <label style={{ color: name ? "white" : "red" }}>
                     Name
                     <input
+                      placeholder="Please Enter you name"
                       type="text"
                       name="name"
                       value={name}
@@ -158,9 +159,15 @@ export default function CTA() {
                 </div>
 
                 <div>
-                  <label>
+                  <label
+                    style={{
+                      color: comment ? "white" : "red",
+                      fontWeight: comment ? "300" : "500",
+                    }}
+                  >
                     Comment
                     <textarea
+                      placeholder="Please enter a comment"
                       type="text"
                       name="comment"
                       value={comment}
@@ -174,7 +181,6 @@ export default function CTA() {
             </div>
             <div style={{ marginTop: 15 }}>
               <Button
-                // className={classes.root}
                 variant="contained"
                 disabled={!name || !comment}
                 onClick={sendComment}

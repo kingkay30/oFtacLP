@@ -138,8 +138,9 @@ form {
 }
 
 label {
-  color:white;
-  font-size: 30px;
+  
+  font-size: 35px;
+  font-weight: 500;
 
 }
 input {
@@ -148,7 +149,8 @@ input {
   width:100%;
   outline: unset;
   border: none;
-    padding: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 textarea {
   border-radius: 10px;
