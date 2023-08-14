@@ -17,7 +17,7 @@ function Navbar() {
         backgroundColor: "blue",
         flex: 1,
         padding: 15,
-        height: 90,
+        height: 130,
       }}
     >
       <h2
