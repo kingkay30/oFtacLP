@@ -16,7 +16,8 @@ function Navbar() {
         zIndex: 999,
         backgroundColor: "blue",
         flex: 1,
-        padding: 10,
+        padding: 15,
+        height: 90,
       }}
     >
       <h2
