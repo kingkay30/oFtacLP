@@ -16,8 +16,7 @@ export default function Foot() {
             oFtac
           </h2>
           <p className={`${styles.paragraph} mt-2 max-w-[852px]`}>
-            A new way to connect to connect to your former high school
-            classmates
+            A new way to connect to your former high school classmates.
           </p>
         </div>
       </div>

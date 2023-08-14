@@ -53,10 +53,10 @@ export default function About() {
           </span>{" "}
           is being built around profile authenticity, whereby likes, comments
           and followers and are strictly performed by real users. We've unabled
-          the ability of groups-profiles that dont bear original user name-
-          created by users to perform those action because it gives users false
-          engagements as one user can create multiple groups and use them to
-          perform those actions.
+          the ability of groups(profiles that dont bear original user's full
+          name) created by users to perform those action because it gives users
+          false engagements as one user can create multiple groups and use them
+          to perform those actions...
           <br /> This is one of the core ideas of{" "}
           <span
             className="lg:text-[25px] sm:text-[30px] xs:text-[25px]"

@@ -58,8 +58,10 @@ export default function CTA() {
   };
 
   setTimeout(() => {
-    setShowComment(false);
-    setShowCommentField(true);
+    if (showComment) {
+      setShowComment(false);
+      setShowCommentField(true);
+    }
   }, 10000);
 
   return (
@@ -92,10 +94,11 @@ export default function CTA() {
           >
             oFtac
           </span>{" "}
-          aims on connecting its users to thier former classmates and also to
-          make new friends. It's still in it's early stage of development and we
-          will like a feedback from you on what you think about the idea and if
-          its a platform you will like to a part of when released.
+          aims on connecting its users to thier former classmates and share
+          memories and also to make new friends. It's still in it's early stage
+          of development and we will like a feedback from you on what you think
+          about the idea and if its a platform you will like to a part of when
+          released.
         </p>
         <p
           className={`${styles.paragraph} max-w-[470px] mt-5 lg:mt-[50px]
@@ -226,11 +229,11 @@ export default function CTA() {
             >
               oFtac
             </span>{" "}
-            is still in production, angel investors and team members are needed.
-            If you will like to a part of the founding team, or you will like to
-            know more about us , please do reach out to us via email
+            is still in development mode, angel investors and team members are
+            needed. If you will like to a part of the founding team, or you will
+            like to know more about us , please do reach out to us via email
             <span style={{ color: "red" }}> oftacng@gmail.com </span>or send a
-            messages on WhatsApp{" "}
+            message via WhatsApp{" "}
             <span style={{ color: "red" }}> +2349074492272</span> and tell us
             what you will like to be part of.
           </p>

@@ -44,21 +44,21 @@ export const features = [
     icon: star,
     title: "Share Posts and Profiles",
     content:
-      "Create posts and groups profiles and share with your classmates and friends",
+      "Create posts and groups profiles and share with your classmates and friends.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "Class Messaging",
     content:
-      "Share messages with only your classmates and have access to all your classmates",
+      "Share messages with only your classmates and have access to all your classmates.",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Comment-Engagement-Section",
     content:
-      "This allows the creator of a posts to directly engage with users commenting on thier post",
+      "This allows the creator of a posts to directly engage with users commenting on thier post.",
   },
 
   {
@@ -66,7 +66,7 @@ export const features = [
     icon: send,
     title: "See whats happening ",
     content:
-      "Search for other schools and classes and see info about the schools and activities happening and also search for your friends from other schools",
+      "Search for other schools and classes and see info about the schools and activities happening and also search for your friends from other schools.",
   },
 ];
 
