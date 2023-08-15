@@ -230,8 +230,9 @@ export default function CTA() {
               oFtac
             </span>{" "}
             is still in development mode, angel investors and team members are
-            needed. If you will like to a part of the founding team, or you will
-            like to know more about us , please do reach out to us via email
+            needed. If you will like to be a part of the founding team, or you
+            will like to know more about us , please do reach out to us via
+            email
             <span style={{ color: "red" }}> oftacng@gmail.com </span>or send a
             message via WhatsApp{" "}
             <span style={{ color: "red" }}> +2349074492272</span> and tell us
